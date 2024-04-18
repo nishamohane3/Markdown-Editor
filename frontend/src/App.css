@@ -1,0 +1,54 @@
+.header {
+  border: #f0f0f0;
+  text-align: center;
+  font-weight: 800;
+  font-size: x-large;
+  /* margin-top: 20px; */
+  /* margin-bottom: 20px; */
+  background-color: grey;
+  color: #f0f0f0;
+  padding: 15px;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.topcontainer {
+  display: flex;
+  height: 10vh;
+}
+
+.headingcss {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 15px;
+  font-weight: 500;
+  border: groove;
+  margin-right: -1px;
+  border-radius: 5px;
+}
+
+.editor-pane,
+.preview-pane {
+  flex: 1;
+  overflow: auto;
+  padding-left: 15px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.editor-pane {
+  background-color: #f0f0f0;
+}
+
+.preview-pane {
+  background-color: #fff;
+}
+
+.textarea {
+  border: none;
+  outline: none;
+  resize: none
+}
